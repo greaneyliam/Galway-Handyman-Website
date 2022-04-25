@@ -1,0 +1,1 @@
+View the HTML files from within the HTML folder. Index only works when supported by the browser.

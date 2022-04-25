@@ -1,0 +1,453 @@
+html, body{
+	background-color: #f4f8f0;
+}
+
+/* Start of Home Page CSS */
+.header{
+	background-color:#d6a1a1;/* Lighter Maroon */
+}
+
+.header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 280px;
+}
+
+.navbar{
+	background-color:#a65d5d;/* Darker Maroon */
+    position: sticky;/* So it sticks to position at top over the top header when scrolled */
+    top: 0;/* So it sticks to position at top over the top header when scrolled */
+    z-index: 9998;/* Server issue. Needs this to appear over header images */
+	
+}
+.nav-item{
+	font-size: 22px;
+	padding-left: 20px;
+	padding-right:20px;
+	font-family: 'Fjalla One', sans-serif;/* Font for header text */
+}
+
+.nav-item i{
+	padding-left:6px;
+}
+
+#carouselExampleFade{
+	width:100%;
+	height:800px;
+}
+
+#carouselExampleFade img{
+	width:1300px;
+	height:800px;
+}
+
+#caraB{
+	width:100%;
+}
+
+#sideBar{
+	background-color:#d6a1a1;
+	border-right: double;
+	border-left: double;
+}
+
+h2{
+	font-family: 'Fjalla One', sans-serif;/* Font for header text */
+	color: #fc8c34;
+
+}
+
+p{
+	font-family: 'Cantarell', sans-serif;/* Font for paragraph text */
+}
+
+#Para{
+	text-align:center;
+	padding-top:50px;
+}
+
+#bord {
+	height:10px;
+	width:480px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:10px;
+}
+
+#Para p{
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact_Title{
+	margin-top:50px;
+}
+
+#paragraph_1{
+	width:78%;
+	height:580px;
+	background-color: #f4f8f0;
+	margin: auto;
+}
+
+#paragraph_1 p{
+   width:100%;
+   margin: auto;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.column p{
+  width: 200px;
+  word-wrap: break-word;
+  padding-left:70px;
+}
+
+.column .btn{
+  text-align:center;	
+}
+
+#col_image{
+	height:100%;
+	width: 80%;
+	border-radius: 25px;
+}
+
+
+.wrapper {
+    text-align: center;
+}
+
+
+#logoFooter{
+	background-color:#a65d5d;/* Darker Maroon */
+	height:50px;
+	
+}
+
+#logoFooter h2{
+	color: #fc8c34;/* Orange */
+	font-size:15px;
+	text-align: center;
+	padding-top:12px;
+}
+/* End of Home Page CSS */
+
+/* Start of About Page CSS */
+#about{
+	width:70%;
+
+
+	margin: auto;
+}
+
+#about_text{
+	padding-left:10%;
+}
+
+#about_text p{
+
+}
+
+#about_bord{
+	height:10px;
+
+}
+
+#about_img img{
+	width:200px;
+	height:200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#about_img h2{
+	width:200px;
+		margin-left: auto;
+	margin-right: auto;
+}
+
+#exp{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:20px;
+}
+
+#exp_text h2{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#carouselExampleDark img{
+	height:360px;
+	border-radius: 25px;
+}
+
+#carouselExampleDark1 img{
+	height:360px;
+	border-radius: 25px;
+}
+
+#carouselExampleDark2 img{
+	height:360px;
+	border-radius: 25px;
+}
+
+#carouselExampleDark3 img{
+	height:360px;
+	border-radius: 25px;
+}
+
+#exp_text{
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#exp_img{
+	width:800px;
+		margin-left: auto;
+	margin-right: auto;
+}
+/* End of About Page CSS */
+
+/* Start of Gallery Page CSS */
+#gallery{
+	width:100%;
+}
+
+
+
+
+
+
+
+/* End of Gallery Page CSS */
+
+/* Start of Form Page CSS */
+.lesser_header img{
+	width:100%;
+	height:600px;
+
+}
+
+.lesser_header {
+	position: relative;
+	text-align: center;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Fjalla One', sans-serif;/* Font for header text */
+	color:#174dee;
+	font-size:40px;
+ text-shadow: 2px 2px black;	
+}
+
+#formcontent{
+	width:60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top:30px;
+}
+
+#bord_form{
+	height:10px;
+	margin-bottom:10px;
+}
+
+
+
+
+
+
+/* End of Form Page CSS */
+
+
+
+
+/* Start of Fancy Card CSS */
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+/* End of Fancy Card CSS */
+
+
+
+
+/* Start of Button CSS */
+.btn {
+  border: 4px solid black;
+  background-color: white;
+  color: black;
+  width:200px;
+  height:50px;
+  margin-top:30px;
+  margin-bottom:10px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.success {
+  border-color: #a65d5d;/* Darker Maroon */
+  color: black;
+  
+}
+
+.success:hover {
+  background-color: #d6a1a1;/* Lighter Maroon */
+  color: white;
+}
+/* End of Button CSS */
+
+
+
+/* Code for Modal Images. Source: https://stackoverflow.com/questions/47798971/several-modal-images-on-page */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 9999;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+/* End of code for Modal Images. Source: https://stackoverflow.com/questions/47798971/several-modal-images-on-page */

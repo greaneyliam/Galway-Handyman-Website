@@ -1,0 +1,191 @@
+@font-face{
+	font-family:BKANTimport;
+	src:url("BKANT.ttf");
+	
+	font-family:helveticaimport;
+	src:url("helvetica.ttf");
+	
+	font-family:norwesterimport;
+	src:url("norwester.ttf");
+}
+
+html, body{
+	background-image: url("../img/bg1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.navbar{/* Targets navbar colour for transparent */
+	background-color: #440403;
+}
+
+#heading{
+		color: white;
+	font-size: 24px;
+}
+
+#links{
+margin-right:50%;
+margin-left:0%;
+}
+
+#links a{
+	color: white;
+	font-size: 24px;
+}
+
+#logo{
+	width: 100px;
+	height: 70px;
+}
+
+.section_1{
+	width:100%;
+	padding-top: 100px;
+}
+
+#carouselExampleFade{
+	width:1300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#carouselExampleFade img{
+	width:1300px;
+	height:700px;
+}
+
+.section_2{
+	width:100%;
+	height:580px;
+	margin-top:40px;
+	background:rgba(128,0,0, 0.5);
+}
+
+#paragraph_1{
+	padding-top:20px;
+	width:1400px;
+	height:580px;
+	background:rgba(255,255,255, 0.9);
+	margin: auto;
+}
+
+h1{
+	  text-align: center;
+	     font-family: bkant;
+}
+
+#border{
+	width:50%;
+	height:60px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#paragraph_1 p{
+   width:1000px;
+   font-family: helvetica;
+   font-size: 20px;
+   margin: auto;
+}
+
+#cards{
+	  background-color: rgba(245, 245, 245, 1);
+  opacity: .9;
+}
+
+#cards img{
+
+
+}
+
+#skills{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  height:1000px;
+}
+
+#row_1{
+	padding-top:20px;
+	width:1400px;
+	height:580px;
+	background:rgba(255,255,255, 0.9);
+	margin: auto;
+}
+
+#row_2{
+	padding-top:20px;
+	width:1400px;
+	height:580px;
+	background:rgba(255,255,255, 0.9);
+	margin: auto;
+}
+
+#paragraph_2{
+	padding-top:20px;
+	width:50%;
+	height:580px;
+	background:rgba(255,255,255, 0.9);
+	margin: auto;
+}
+
+#paragraph_2 p{
+   width:500px;
+   font-family: helvetica;
+   font-size: 20px;
+   float:left;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column p{
+
+  width: 200px;
+  word-wrap: break-word;
+  padding-left:70px;
+
+
+}
+
+#col_image{
+	height:350px;
+	width: 500px;
+	margin-left:50px;
+}
+
+.column button{
+	margin-top:40px;
+	margin-left:250px;
+}
+
+#request_form{
+	padding:40px;
+}
+
+.formpage{
+	width:100%;
+	height:1400px;
+
+	background:rgba(128,0,0, 0.5);
+}
+
+#formcontent{
+	padding-top:300px;
+	width:1400px;
+	height:1400px;
+	background:rgba(255,255,255, 0.9);
+	margin: auto;
+}
+
